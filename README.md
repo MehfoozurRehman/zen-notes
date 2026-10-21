@@ -51,7 +51,6 @@ Other scripts: `pnpm generate` (regenerate the Prisma client), `pnpm studio` (Pr
 - There is no authentication and no ownership model. Any visitor can edit or delete any note. Add user accounts before using this beyond a local demo.
 - `/[noteId]` is a placeholder. Either build the note view or remove the route.
 - The `.env` file is tracked in git. Move it out of the repository and keep only an example file.
-- Every script runs `api.js` before Next.js. Review that file, or remove it from the scripts.
 - There are no tests.
 
 ## Author
